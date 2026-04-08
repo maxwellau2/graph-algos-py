@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Algorithms Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Graph Algorithms Visualizer</h1>
+
+        <div class="algorithm-section">
+            <h2>Breadth-First Search (BFS)</h2>
+            <p>BFS is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.</p>
+            <pre><code id="bfs-code"></code></pre>
+            <div id="bfs-output" class="output"></div>
+        </div>
+
+        <div class="algorithm-section">
+            <h2>Depth-First Search (DFS)</h2>
+            <p>DFS is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.</p>
+            <pre><code id="dfs-code"></code></pre>
+            <div id="dfs-output" class="output"></div>
+        </div>
+
+        <div class="algorithm-section">
+            <h2>Dijkstra's Algorithm</h2>
+            <p>Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later.</p>
+            <pre><code id="dijkstra-code"></code></pre>
+            <div id="dijkstra-output" class="output"></div>
+        </div>
+
+        <div class="algorithm-section">
+            <h2>Max Flow Min Cut (Edmonds-Karp)</h2>
+            <p>The max-flow min-cut theorem states that in a flow network, the maximum amount of flow passing from a source to a sink is equal to the minimum capacity of a cut that separates the source and sink. The Edmonds-Karp algorithm is an implementation of the Ford-Fulkerson method for computing the maximum flow in a flow network.</p>
+            <pre><code id="max-flow-min-cut-code"></code></pre>
+            <div id="max-flow-min-cut-output" class="output"></div>
+        </div>
+    </div>
+
+    <script src="bfs.js"></script>
+    <script src="dfs.js"></script>
+    <script src="dijkstra.js"></script>
+    <script src="max_flow_min_cut.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
